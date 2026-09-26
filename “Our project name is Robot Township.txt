@@ -1,0 +1,66 @@
+“Our project name is Robot Township. It is a puzzle-based township simulation game developed using Python and Pygame. In this game, the player solves different puzzles and earns coins, XP and robot parts. Coins are used to construct buildings, manage farming and upgrade the robot. As the township develops, population and happiness increase. The game also contains missions, achievements, difficulty progression and automatic game systems. Player progress is stored using JSON.”
+
+🔹 Technologies enduku use chesam?
+Technology	Enduku use chesam
+Python	Main programming and game logic kosam
+Pygame	Game window, graphics, buttons, keyboard/mouse input, animation and game loop kosam
+JSON	Game progress save/load kosam
+Random	Puzzle questions, cards, sequences etc. randomize cheyyadaniki
+Math	Animation and calculations kosam
+Time	Crop growth, puzzle timers, income and notifications kosam
+OS	Save file exist avutunda leda check cheyyadaniki
+
+Ivi actual project architecture lo use chesina technologies.
+
+🔹 Main Modules
+Game Engine – complete game state ni control chestundi.
+Puzzle Module – 10 different puzzles.
+Coin System – in-game currency.
+XP & Level System – player progression.
+Township Building – houses, shops, school, clinic, factory etc.
+Farming – crops plant and harvest.
+Robot Module – robot parts collect and assemble.
+Robot Upgrade – robot abilities improve.
+Population – township residents increase.
+Happiness – township condition track chestundi.
+Missions – objectives complete cheyyali.
+Achievements – long-term achievements.
+Save/Load – progress JSON lo store chestundi.
+Automatic Systems – income and robot-based automatic harvesting.
+Game Loop – input → update → drawing continuously process chestundi.
+🧩 10 Puzzles
+Memory Cards
+Quick Math
+Sequence Recall
+Number Sort
+Pattern Match
+Word Puzzle
+Odd One Out
+Shape & Colour
+Matching Game
+Maze Escape
+
+Puzzle complete chesthe coins + XP + robot part rewards vastayi. Difficulty kuda gradually unlock avutundi.
+
+🤖 Robot System
+
+Robot ki 10 parts collect cheyyali. Complete robot assemble chesaka upgrades available avutayi.
+
+Level 1 → Free hint
+Level 2 → Crops faster
+Level 3 → Buildings cheaper
+Level 4 → Ready crops automatic harvest
+Level 5 → Passive income + happiness benefits
+💾 Save System
+
+Game close chesina progress lose kakunda:
+
+Game Data → JSON → township_save.json
+
+lo coins, XP, buildings, crops, robot parts, missions, achievements and puzzle progress save chestam.
+
+Important: Nee updated project explanation lo code kuda explain cheyyali ante, next nenu actual township_game(1).py code ni section-by-section teesukoni:
+
+import pygame → Config → Game class → Puzzle classes → Screens → Save/Load → Main Game Loop
+
+prati code block ki “ee code em chestundi + enduku use chesam + viva lo ela cheppali” format lo cheptanu.
